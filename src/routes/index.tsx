@@ -206,7 +206,7 @@ function Index() {
                       </MessageResponse>
                     </div>
                   ) : (
-                    <MessageContent variant="contained" className="text-base">
+                    <MessageContent className="text-base">
                       <p className="whitespace-pre-wrap">{m.text}</p>
                     </MessageContent>
                   )}
