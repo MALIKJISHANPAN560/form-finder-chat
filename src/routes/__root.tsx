@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Form Finder" },
+      { name: "description", content: "Ask for any government form and get the official link, required documents, and application steps instantly." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Form Finder" },
+      { property: "og:description", content: "Ask for any government form and get the official link, required documents, and application steps instantly." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Form Finder" },
+      { name: "twitter:description", content: "Ask for any government form and get the official link, required documents, and application steps instantly." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5236e54a-3a2e-4187-a231-c6e9280741c2/id-preview-67681c53--a04ef38f-80be-4bcd-bee6-8469e1e6cfaa.lovable.app-1780154028682.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5236e54a-3a2e-4187-a231-c6e9280741c2/id-preview-67681c53--a04ef38f-80be-4bcd-bee6-8469e1e6cfaa.lovable.app-1780154028682.png" },
     ],
     links: [
       {
