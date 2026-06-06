@@ -26,9 +26,9 @@ import logo from "@/assets/form-finder-logo.png";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Form Finder — Official Forms, Fast" },
+      { title: "Shan Form Finder — Official Forms, Fast" },
       { name: "description", content: "Ask for any form and get the official link, instantly." },
-      { property: "og:title", content: "Form Finder" },
+      { property: "og:title", content: "Shan Form Finder" },
       { property: "og:description", content: "Ask for any form and get the official link, instantly." },
     ],
   }),
@@ -146,14 +146,14 @@ function Index() {
         <div className="mx-auto flex w-full max-w-2xl items-center gap-3 px-4 py-3">
           <img
             src={logo}
-            alt="Form Finder logo"
+            alt="Shan Form Finder logo"
             width={40}
             height={40}
             className="h-10 w-10 rounded-xl object-contain"
           />
           <div className="min-w-0 flex-1">
             <h1 className="text-lg font-semibold tracking-tight text-foreground">
-              Form Finder
+              Shan Form Finder
             </h1>
             <p className="truncate text-xs text-muted-foreground">
               Ask for any form and get the official link
